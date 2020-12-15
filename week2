@@ -1,1 +1,36 @@
+python words
 
+human time -> epoch time
+1970.1.1  -> int
+
+1.programming = data structure + algorithm
+
+相对于C++，python无需编译，直接可运行
+
+python's package collection website: pipit.org
+
+python typing :  https://realpython.com/python-type-checking/
+
+2. CRUD= created, read, update, delete
+
+二分法（必考）
+binary search 
+
+N total number
+N --> lnN  
+
+先排序
+def b_search(arr, target):
+    left = 0 #0
+    right = len(arr) - 1 #5
+    while left <= right:
+        mid = (left + right) // 2 #overflow
+        if arr[mid] == target:
+            return mid    
+        if arr[mid] > target:
+            right = mid - 1
+        else:
+            left = mid + 1
+    return -1
+
+b_search(example,9)
