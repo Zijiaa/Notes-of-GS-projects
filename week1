@@ -1,3 +1,8 @@
 python sql git
 
+terminal启动jupyter notebook
 
+jupyter-lab
+
+
+一个没窗户的房间有三个灯泡，在房间外面控制3个开关（每个开关控制一个灯泡）。如果只能进入房间一次，你如何知道哪个开关控制哪个灯泡呢？
