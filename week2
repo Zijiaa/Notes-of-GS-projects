@@ -72,20 +72,39 @@ print(x[::-1])  #backwards
 
 
 1.排序算法
-# time - space (trade off)
-Time Complexity: C - lgN - N - NlogN - N^2 - ... - N^N
-Space Complexity: (Extra Complexity) 
+	# time - space (trade off)
+	Time Complexity: C - lgN - N - NlogN - N^2 - ... - N^N
+	Space Complexity: (Extra Complexity) 
 
 牺牲空间-->换取时间
 
-# selection sort -> compare and swap   
-## selection, quick, merge sort  会考
-time complexity
-selection:N^2   适合基本操作，实践简单
-quick:NlnN
+	# selection sort -> compare and swap   
+	## selection, quick, merge sort  会考
+	time complexity
+	selection:N^2   适合基本操作，实践简单
+	quick:NlnN
 
-merge sort: divide and concur 
+	merge sort: divide and concur 
 
 
 2.哈希算法
+
+
+Python内置了字典：dict的支持，dict全称dictionary，在其他语言中也称为map，使用键-值（key-value）存储，具有极快的查找速度。
+哈希表，hashTable, hashMap, key-value pair 键值对表
+
+	# Set
+	What is Hashcode, 支持唯一性和集合操作
+	https://realpython.com/python-sets/
+
+	frozen set使用原因：不需改只需读，效率更高
+
+
+	只有immutable才可以被hash
+	tuple()
+
+
+
+
+
 
