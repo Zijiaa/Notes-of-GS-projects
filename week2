@@ -50,6 +50,7 @@ iterators, generators(python独有),decorators:面试必考
 1.排序算法
 2.哈希算法
 
+
 x="Hello"
 print(x,id(x))
 x+=" You!"
@@ -70,6 +71,21 @@ print(x[::-1])  #backwards
 
 
 
+1.排序算法
+# time - space (trade off)
+Time Complexity: C - lgN - N - NlogN - N^2 - ... - N^N
+Space Complexity: (Extra Complexity) 
+
+牺牲空间-->换取时间
+
+# selection sort -> compare and swap   
+## selection, quick, merge sort  会考
+time complexity
+selection:N^2   适合基本操作，实践简单
+quick:NlnN
+
+merge sort: divide and concur 
 
 
+2.哈希算法
 
