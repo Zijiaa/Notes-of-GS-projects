@@ -4,6 +4,7 @@ human time -> epoch time
 1970.1.1  -> int
 
 1.programming = data structure + algorithm
+2. CRUD= created, read, update, delete
 
 相对于C++，python无需编译，直接可运行
 
@@ -11,7 +12,6 @@ python's package collection website: pipit.org
 
 python typing :  https://realpython.com/python-type-checking/
 
-2. CRUD= created, read, update, delete
 
 二分法（必考）
 binary search 
@@ -34,3 +34,25 @@ def b_search(arr, target):
     return -1
 
 b_search(example,9)
+
+
+Python Lesson2
+
+
+x.extend([1,2,3]) #Unpacks the list and adds each item to the back of the list
+
+<data structures and algorithms in python>  Goodrich MT    第一章看3遍以上
+
+1.排序算法
+2.哈希算法
+
+x="Hello"
+print(x,id(x))
+x+=" You!"
+print(x,id(x)) #x is not the same object it was
+y=["Hello"]
+print(y,id(y))
+y+=["You!"] 
+print(y,id(y)) #y is still the same object. Lists are mutable. Strings are immutable
+
+
