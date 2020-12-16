@@ -6,7 +6,9 @@ human time -> epoch time
 1.programming = data structure + algorithm
 2. CRUD= created, read, update, delete
 
-相对于C++，python无需编译，直接可运行
+相对于C++，python无需编译，直接可运行  
+
+*从范式的思考回答：C++和python的区别*在xx情况下解决xx问题更好
 
 python's package collection website: pipit.org
 
@@ -42,6 +44,8 @@ Python Lesson2
 x.extend([1,2,3]) #Unpacks the list and adds each item to the back of the list
 
 <data structures and algorithms in python>  Goodrich MT    第一章看3遍以上
+iterators, generators(python独有),decorators:面试必考
+
 
 1.排序算法
 2.哈希算法
@@ -54,5 +58,18 @@ y=["Hello"]
 print(y,id(y))
 y+=["You!"] 
 print(y,id(y)) #y is still the same object. Lists are mutable. Strings are immutable
+
+OUTPUT
+
+Hello 4579200880
+Hello You! 4578326064
+['Hello'] 4578585168
+['Hello', 'You!'] 4578585168
+
+print(x[::-1])  #backwards
+
+
+
+
 
 
