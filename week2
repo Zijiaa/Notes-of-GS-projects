@@ -99,6 +99,8 @@ OUTPUT
 2.哈希算法
 
 
+
+
 	# Set
 	What is Hashcode, 支持唯一性和集合操作
 	https://realpython.com/python-sets/
@@ -113,6 +115,41 @@ OUTPUT
 
 	Python内置了字典：dict的支持，dict全称dictionary，在其他语言中也称为map，使用键-值（key-	value）存储，具有极快的查找速度。
 	哈希表，hashTable, hashMap, key-value pair 键值对表
+	
+	search by key - 时间复杂度是常数级别
+	array - search: 线性 
+	binary search (要求已排序 lgN)
+
+
+
+	快速查找学生成绩 学生 (名字，学号)
+	dict1 - 学号 : (名字，成绩)   *tuple*
+
+
+
+# CRUD, index - hash function 
+# hash(str) -> int
+# A A P L -> 
+# B
+def hash(input):
+    res = 0
+    for s in input:
+        res += ascii(s) # 65 + 65 + 80 + 76 = 286
+    return res
+
+bucket = list(k-v pair) 
+
+# Add: AAPL ->  538.7
+(1) hash('AAPL') -> 286
+(2) bucket[286] = ('AAPL', 538.7)
+dic.bucket = [('AAPL', 538.7)]
+
+# Read 
+(1) hash('AAPL') -> 286
+(2) return dic.bucket[286][1]
+
+# Collision -> if interested, search online
+
 
 
 
