@@ -127,6 +127,7 @@ OUTPUT
 
 
 
+
 # CRUD, index - hash function 
 # hash(str) -> int
 # A A P L -> 
@@ -150,6 +151,24 @@ dic.bucket = [('AAPL', 538.7)]
 
 # Collision -> if interested, search online
 
+
+
+
+
+
+Exception Handling:正式程序中少用
+
+#1 silent error 
+#2 re-throw 
+
+while True:
+    try:
+        x = int(input("A number: "))
+        y = int(input("A number: "))
+        print(x+y)
+        break
+    except ValueError:
+        print("Both inputs need to be integers! Please try again.")
 
 
 
