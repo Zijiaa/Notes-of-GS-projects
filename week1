@@ -8,6 +8,7 @@ jupyter-lab
 Q：一个没窗户的房间有三个灯泡，在房间外面控制3个开关（每个开关控制一个灯泡）。如果只能进入房间一次，你如何知道哪个开关控制哪个灯泡呢？
 
 
+git
 
 用terminal 创建文件夹并clone到github的方法
 
@@ -16,4 +17,11 @@ cd 文件夹
 mkdir 新文件夹名字
 cd 新文件夹
 pwd(显示路径）
-git clone https://github.com/Zijiaa/Github.git
+git clone https://github.com/Zijiaa/Note-of-GS-project.git
+
+clone之后，新文件夹就有原来github网址那个project的全部内容了
+
+ls
+cd xxx
+git status
+git log
