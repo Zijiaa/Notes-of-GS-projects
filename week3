@@ -1,1 +1,42 @@
+Advance Topics
+
+1. 
+Dunder functions  def__init__(self, string):
+dir()    returns all properties and methods of the specified object, without the values
+Build-in functions  eg: abs()	https://docs.python.org/3/library/functions.html
  
+operator.  ()  #调用底层函数
+
+
+2. 
+正则表达式
+
+from random import randint
+
+lambda x
+
+python IO / File / Network 
+
+
+file_csv = open("data/GS.csv", "r")
+data_list = []
+for line in file_csv:
+    data_list.append(line)
+print(data_list)
+print("\n")
+
+list(map(lambda d: d.split(","),data_list[1:]))
+
+print("\n")
+
+
+def translate_row(row):
+    res = row.split(",")
+    res[1] = float(res[1].rstrip())
+    return res
+print(list(map(translate_row, data_list[1:])))
+
+
+
+IO ：input / output
+
