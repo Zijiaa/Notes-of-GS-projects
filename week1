@@ -9,3 +9,11 @@ Q：一个没窗户的房间有三个灯泡，在房间外面控制3个开关（
 
 
 
+用terminal 创建文件夹并clone到github的方法
+
+ls
+cd 文件夹
+mkdir 新文件夹名字
+cd 新文件夹
+pwd(显示路径）
+git clone https://github.com/Zijiaa/Github.git
