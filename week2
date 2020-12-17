@@ -4,7 +4,9 @@ python words
 	1970.1.1  -> int
 
 1.programming = data structure + algorithm
-2. CRUD= created, read, update, delete
+2. CRUD= created, read, update, delete  + search
+3. Time vs Space trade off
+4. It's all about abstraction
 
 	相对于C++，python无需编译，直接可运行  
 
