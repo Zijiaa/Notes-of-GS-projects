@@ -1,1 +1,55 @@
 
+Multi-dimensional arrays
+
+loop
+row -> col
+for ...: #row
+    for ... :#col
+'''
+
+
+先看quickstart  tutorial 
+
+
+ay = np.array([np.arange(10),np.arange(10)])
+ax = np.arange(10)**2
+ax = np.ones(10)
+
+ax = np.array([[1,2,3,4],[5,6,7,8]])
+ay = np.ones_like(ax)
+ay = np.zeros_like(ax)
+np.identity(10) 对角单位矩阵
+np.empty([2,3],float) 零矩阵
+
+#List和numpy的区别（必考）
+Both are mutable
+
+1. Lists are heterogenous. Elements of a list can be of multiple types
+   Numpy arrays are homogeneous. Elements can be of only one type
+2. Homogeneity makes indexed access faster and more memory efficient
+	numpy are optimized for matrix operations
+	numpy provides random number support
+
+CRUD
+
+
+batch operations on nd arrays
+
+1。numpy arrays allow the application of batch operations on all elements of an array
+2。without having to write a for loop or use an iterator
+3。by vectorizing operations, numpy is much faster than the slow for loop structure of python
+Streaming - Batch 流式计算 - 批处理
+
+
+interface接口：可以输入-》回复
+API  给程序设计  request-->response   应用范围广
+
+ax.sum(axis=0)col
+ax.sum(axis=1)row
+
+ax[:,np.newaxis]
+
+
+
+
+
